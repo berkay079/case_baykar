@@ -26,6 +26,17 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* Clip-path Arka Plan Katmanları */
+.clip-background {
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+}
+
+.clip-background-bottom {
+  clip-path: polygon(100% 20%, 0% 100%, 100% 100%);
+}
+.custom-shadow {
+  box-shadow: 0 4px 6px rgba(252, 252, 252, 0.989);
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
