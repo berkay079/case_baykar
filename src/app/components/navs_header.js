@@ -1,26 +1,3 @@
-// import React from "react";
-
-// export default function NavsHeader() {
-//   return (
-//     <header className="flex justify-between items-center p-6 bg-gradient-to-r from-[#FFFBE8] to-[#FFFFFF]">
-//       <h1 className="text-3xl font-bold text-brown-600">Collers</h1>
-//       <nav>
-//         <ul className="flex space-x-8">
-//           <li className="text-brown-600">Products</li>
-//           <li className="text-brown-600">Solutions</li>
-//           <li className="text-brown-600">Pricing</li>
-//           <li className="text-brown-600">Resources</li>
-//           <li className="text-brown-600">Log In</li>
-//           <li>
-//             <button className="border-2 border-brown-600 text-brown-600 px-4 py-2 rounded-lg">
-//               Sign up now
-//             </button>
-//           </li>
-//         </ul>
-//       </nav>
-//     </header>
-//   );
-// }
 "use client";
 
 import React, { useState } from "react";

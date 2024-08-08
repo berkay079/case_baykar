@@ -24,14 +24,6 @@ const ShoesCollectedSection = () => {
         <h2 className="text-6xl font-bold mb-4">11,658,467</h2>
         <p className="text-2xl">Shoes Collected</p>
       </div>
-      {/* Green Circles on the Map */}
-      {/* <div className="absolute z-10">
-        <span className="absolute top-1/4 left-1/4 w-4 h-4 bg-green-500 rounded-full"></span>
-        <span className="absolute top-1/3 right-1/3 w-4 h-4 bg-green-500 rounded-full"></span>
-        <span className="absolute bottom-1/4 left-1/3 w-4 h-4 bg-green-500 rounded-full"></span>
-      </div> */}
-      {/* Info Card */}
-      //
       <div className="absolute z-20 top-16 left-16 w-48 h-48">
         <Image
           src="/images/col1.png"
